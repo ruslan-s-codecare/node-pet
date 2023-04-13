@@ -26,11 +26,11 @@ You can use any HTTP client, such as `curl`, `httpie`, or `Postman`, or any othe
 
 To start the server, run the following command:
 
-`npm start`
+`node index.js`
 
-By default, the server will listen on port 3000. You can change the port by specifying the `PORT` environment variable, for example:
+By default, the server will listen on port 3000. You can change the port by specifying the port by passing variable, for example:
 
-`PORT=8080 npm start`
+`node index.js 8080`
 
 ## Testing
 
